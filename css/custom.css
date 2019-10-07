@@ -303,3 +303,95 @@ background-color: #eb3b5a;
 /*=======================================
    do you like my service section end
 ========================================*/
+
+
+/*=======================================
+   my experience section start
+========================================*/
+.my-experiences .overlay h5{
+    color: #ffffff;
+    padding: 25px 0 0;
+}
+.my-experiences .overlay p{
+    font-size: 10.5px;
+    padding: 17px 0;
+    letter-spacing: 1px;
+    color: #fff;
+
+}
+.my-experiences .dul-underline-two{
+    margin: 0 auto;
+    height: 3px;
+    width: 60px;
+    background-color: #eb3b5a;
+}
+/*=======================================
+   my experience section end
+========================================*/
+
+
+/*=======================================
+   my powerful skills section start
+========================================*/
+
+.my-powerful-skills{
+
+    background-image: url(../img/skills.jpg);
+    height: auto;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.my-powerful-skills .overlay{
+    height: auto;
+    width: auto;
+    background-color: rgba(0,0,0,0.5);
+    padding: 60px 0;
+}
+.my-powerful-skills .overlay h5{
+    color: #ffffff;
+    padding: 25px 0 0;
+}
+.my-powerful-skills .overlay p{
+    font-size: 10.5px;
+    padding: 17px 0;
+    letter-spacing: 1px;
+    color: #fff;
+
+}
+.my-powerful-skills .mps-underline-two{
+    margin: 0 auto;
+    height: 3px;
+    width: 60px;
+    background-color: #eb3b5a;
+}
+.my-powerful-skills .my-powerful-skills-content{}
+.my-powerful-skills .my-powerful-skills-content span{
+    color: #fff;
+    height: 100px;
+    width: 100px;
+    line-height: 85px;
+    font-size: 45px;
+    text-align: center;
+    display: inline-block;
+    border: 5px solid;
+    border-radius: 100%;
+}
+.my-powerful-skills .my-powerful-skills-content span sub{
+    color: #eb3b5a;
+    font-size: 15px;
+}
+.my-powerful-skills .my-powerful-skills-content h5{}
+.my-powerful-skills .my-powerful-skills-content p{
+    font-size: 11px;
+    padding: 12px 0;
+    letter-spacing: 1px;
+    color: #dcdcdc;
+}
+/*=======================================
+   my powerful skills section end
+========================================*/
+
+
