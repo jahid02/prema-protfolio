@@ -57,3 +57,56 @@ body{
 /*======================================
       about section end
 ========================================*/
+
+
+/*======================================
+      how i do it section start
+========================================*/
+
+.how-i-do{
+    margin: 20px 0;
+}
+.how-i-do .how-i-do-top{
+    letter-spacing: 1px;
+}
+.how-i-do .how-i-do-top h4{
+    padding: 15px 0 0px 0;
+}
+.how-i-do .how-i-do-top .hid-underline{
+    margin: 0 auto;
+    height: 2.2px;
+    width: 60px;
+    background-color: #eb3b5a;
+}
+.how-i-do .how-i-do-top p{
+    font-size: 11px;
+    padding: 30px 0;
+    color: #777;
+    width: 66%;
+    margin: 0 auto;
+}
+
+.how-i-do .how-i-do-row span i{
+    font-size: 30px;
+    padding: 0px 0 13px;
+}
+.how-i-do .how-i-do-row h5{
+    text-transform: uppercase;
+}
+.how-i-do .hid-underline-two{
+    height: 3px;
+    width: 60px;
+    background-color: #eb3b5a;
+}
+.how-i-do .how-i-do-row p{
+    font-size: 11px;
+    letter-spacing: 1px;
+    padding: 17px 0;
+    color: #5f5f5f;
+    line-height: 23px;
+}
+.how-i-do .how-i-do-img{}
+
+/*======================================
+      how i do it section end
+========================================*/
