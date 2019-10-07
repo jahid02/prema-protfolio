@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffaf59d1-e42e-4ddd-911f-55277a5b60e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/skills.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio/12.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -15,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="407" column="102" selection-start-line="407" selection-start-column="102" selection-end-line="407" selection-end-column="102" />
+            <state relative-caret-position="191">
+              <caret line="440" column="22" lean-forward="true" selection-start-line="440" selection-start-column="22" selection-end-line="440" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
@@ -35,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="344" column="34" lean-forward="true" selection-start-line="344" selection-start-column="34" selection-end-line="344" selection-end-column="34" />
+            <state relative-caret-position="765">
+              <caret line="449" column="49" selection-start-line="449" selection-start-column="49" selection-end-line="449" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -59,14 +70,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/custom.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1056" />
+    <option name="width" value="958" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -95,7 +106,8 @@
             <path>
               <item name="ProtfolioProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProtfolioProject" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -152,15 +164,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570418503526</updated>
-      <workItem from="1570418506369" duration="27823000" />
+      <workItem from="1570418506369" duration="33364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27823000" />
+    <option name="totallyTimeSpent" value="33364000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1056" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="958" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -213,10 +225,17 @@
     <entry file="file://$PROJECT_DIR$/js/95141001f6.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="449" column="49" selection-start-line="449" selection-start-column="49" selection-end-line="449" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="407" column="102" selection-start-line="407" selection-start-column="102" selection-end-line="407" selection-end-column="102" />
+        <state relative-caret-position="191">
+          <caret line="440" column="22" lean-forward="true" selection-start-line="440" selection-start-column="22" selection-end-line="440" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
@@ -228,13 +247,6 @@
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="344" column="34" lean-forward="true" selection-start-line="344" selection-start-column="34" selection-end-line="344" selection-end-column="34" />
         </state>
       </provider>
     </entry>

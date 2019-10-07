@@ -394,4 +394,63 @@ background-color: #eb3b5a;
    my powerful skills section end
 ========================================*/
 
+/*=======================================
+   checkout my works section start
+========================================*/
+.chk-my-work{}
+.chk-my-work .chk-my-work-content{}
+.chk-my-work .chk-my-work-content h4{}
+.chk-my-work .chk-my-work-content a{
+    color: #000;
+    border: 1px solid #eb3b5a;
+    padding: 7px 15px;
+}
+.chk-my-work .chk-my-work-content a:hover{
+    text-decoration: none;
+    background-color: #2E2E2E;
+    border: 1px solid #2E2E2E;
+    color: #ffffff;
+}
+.chk-my-work .chk-my-work-content p{
+    font-size: 13px;
+    padding: 12px 0;
+    letter-spacing: .5px;
+    color: #676767;
+}
+.chk-my-work .chk-my-work-content .chk-underline-two{
+    margin: 0 auto;
+    height: 3px;
+    width: 60px;
+    background-color: #eb3b5a;
+}
+.chk-my-work .chk-my-work-content{
+    list-style: none;
+    /*margin: 0 auto;*/
+}
+.chk-my-work .chk-my-work-content{
+    float: left;
+    padding: 0 5px;
+    margin: 0 auto;
+    width: 100%;
+}
+.chk-my-work .chk-my-work-content-two a{
+    text-decoration: none;
+    margin: 0 5px;
+    border: 1px solid #eb3b5a;
+
+}
+.chk-my-work .chk-my-work-content-two a:hover{
+    text-decoration: none;
+    background-color: #eb3b5a;
+    border: 1px solid #eb3b5a;
+    color: #ffffff;
+}
+.chk-my-work .chk-my-work-content-three{}
+.chk-my-work .chk-my-work-content-three img{}
+.chk-my-work .chk-my-work-content-three img:hover{}
+
+/*=======================================
+   checkout my works section end
+========================================*/
+
 
