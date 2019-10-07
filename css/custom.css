@@ -251,3 +251,55 @@ background-color: #eb3b5a;
 /*======================================
       what can i do section end
 ========================================*/
+
+/*=========================================
+   do you like my service section start
+========================================*/
+.service-like{
+
+    background-image: url(../img/section-bg-02.jpg);
+    height: auto;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.service-like .overlay{
+    height: auto;
+    width: auto;
+    background-color: rgba(0,0,0,0.6);
+    padding: 60px 0;
+}
+.service-like .overlay h5{
+    color: #ffffff;
+    padding: 25px 0 0;
+}
+.service-like .overlay p{
+    font-size: 10.5px;
+    padding: 17px 0;
+    letter-spacing: 1px;
+    color: #fff;
+
+}
+.service-like .dul-underline-two{
+    margin: 0 auto;
+    height: 3px;
+    width: 60px;
+    background-color: #eb3b5a;
+}
+.service-like a{
+    color: #fff;
+    background-color: #eb3b5a;
+    padding: 13px 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.service-like a:hover{
+    text-decoration: none;
+    background-color: #1d2124;
+    color: #ffffff;
+}
+/*=======================================
+   do you like my service section end
+========================================*/
