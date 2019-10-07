@@ -176,3 +176,78 @@ body{
 /*======================================
       fun facts section end
 ========================================*/
+
+/*======================================
+      what can i do section start
+========================================*/
+.what-can-i-do{}
+.what-can-i-do-head{}
+.what-can-i-do-head h5{
+padding: 25px 0 0;
+}
+.what-can-i-do-head p{
+font-size: 10.5px;
+padding: 17px 0;
+letter-spacing: 1px;
+color: #676666;
+}
+.what-can-i-do-head .fun-underline-two{
+margin: 0 auto;
+height: 3px;
+width: 60px;
+background-color: #eb3b5a;
+}
+
+.what-can-i-do .what-can-i-do-element{}
+.what-can-i-do .what-can-i-do-element h5{
+    padding: 12px 0;
+    color: #636363;
+}
+.what-can-i-do .what-can-i-do-element p{
+    font-size: 10.5px;
+    letter-spacing: 1px;
+    color: #676666;
+    line-height: 18px;
+}
+.what-can-i-do .what-can-i-do-element .img-overlap{
+
+    overflow: hidden;
+    transition: .3s all ease-in-out;
+}
+.what-can-i-do .what-can-i-do-element .img i{
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    color: #333;
+    background: #f2f2f2;
+    -webkit-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+    transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+}
+/*.what-can-i-do .what-can-i-do-element .img-overlap:hover{
+    border: 2px solid #eb3b5a;
+    border-radius: 100%;
+}
+.what-can-i-do .what-can-i-do-element .img-overlap:hover .img{
+    background-color: #eb3b5a;
+    height: auto;
+    width: auto;
+    color: #ffffff;
+}*/
+.what-can-i-do .what-can-i-do-element .img i{
+    /*font-size: 34px;*/
+}
+.what-can-i-do .what-can-i-do-element .img-overlap:hover i{
+    background: #f7465b;
+    color: #fff;
+}
+
+
+/*======================================
+      what can i do section end
+========================================*/
