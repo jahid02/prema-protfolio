@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="" id="myscroll">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smoth scroll</title>
+    <link rel="stylesheet" href="">
+    <style>
+        .toTop {
+            position: fixed;
+            right: 30px;
+            bottom: 30px;
+            color: #fff;
+            background: green;
+            text-decoration: none;
+            padding: 10px 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#blog">Blog</a></li>
+    </ul>
+
+
+    <div id="home">
+        <h1>Home</h1>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+    </div>
+
+
+    <div id="about">
+        <h1>About</h1>
+        <p></p>
+    </div>
+
+    <div id="contact">
+        <h1>Contac</h1>
+        <p></p>
+
+    </div>
+
+    <div id="service">
+        <h1>Service</h1>
+        <p></p>
+    </div>
+
+    <div id="work">
+        <h1>Work</h1>
+        <p></p>
+    </div>
+
+    <div id="blog">
+        <h1>Blog</h1>
+        <p></p>
+    </div>
+
+    <div style="height: 700px;"></div>
+
+    <a href="#myscroll" class="toTop">To top</a>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.smooth-scroll.min.js"></script>
+    <script>
+        $('.menu a').smoothScroll({
+
+            offset: -50,
+            speed: 1000,
+
+        });
+
+        $('.toTop').smoothScroll();
+
+        $(window).scroll(function() {
+            var top = $(window).scrollTop();
+
+            if (top > 300) {
+                $('.toTop').fadeIn(500);
+            } else {
+                $('.toTop').fadeOut(500);
+            }
+
+        });
+    </script>
+</body>
+
+</html>
