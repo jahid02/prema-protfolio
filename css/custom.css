@@ -1,7 +1,58 @@
+
+/*======================================
+      initial css
+========================================*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+/*font-family: 'Raleway', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
 /*======================================
       about section start
 ========================================*/
+.about-hire-me{
+    background-color: #eb3b5a;
+    text-transform: uppercase;
+    height: auto;
+    padding: 60px 0px;
+    letter-spacing: 2px;
 
+}
+.about-hire-me p{
+    font-size: 16px;
+}
+.about-hire-me .button{
+    padding: 25px 0px;
+}
+.about-hire-me .button a{
+    font-size: 11px;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    padding: 10px 15px;
+    margin: 0px 6px;
+}
+.about-hire-me .button a i{
+    font-size: 10px;
+    padding: 0 4px;
+}
+
+.about-hire-me .button a:hover{
+    background-color: #000000;
+    border: 1px solid #000000;
+
+}
 
 /*======================================
       about section end
