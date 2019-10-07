@@ -110,3 +110,69 @@ body{
 /*======================================
       how i do it section end
 ========================================*/
+
+/*======================================
+      fun facts section end
+========================================*/
+.fun-facts{
+
+    background-image: url(../img/section-bg-01.jpg);
+    height: auto;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.fun-facts .overlay{
+    height: auto;
+    width: auto;
+    background-color: rgba(0,0,0,0.6);
+    padding: 60px 0;
+}
+.fun-facts .overlay h5{
+    color: #ffffff;
+    padding: 25px 0 0;
+}
+.fun-facts .overlay p{
+    font-size: 10.5px;
+    padding: 17px 0;
+    letter-spacing: 1px;
+    color: #eaeaea;
+}
+.fun-facts .fun-underline-two{
+    margin: 0 auto;
+    height: 3px;
+    width: 60px;
+    background-color: #eb3b5a;
+}
+.fun-facts .fun-facts-counting{
+
+}
+
+
+.fun-facts .fun-facts-counting i{
+    color: #fff;
+    font-size: 40px
+}
+.fun-facts .fun-facts-counting h5{
+    font-size: 40px;
+    padding: 4px 0;
+}
+.fun-facts .fun-facts-counting span{
+    font-size: 13px;
+    color: #ffffff;
+    letter-spacing: 2.5px;
+    padding: 16px 0;
+}
+.fun-facts .fun-underline-three{
+    margin: 0 auto;
+    height: 3px;
+    width: 60px;
+    background-color: #eb3b5a;
+    margin-bottom: -16px;
+}
+
+/*======================================
+      fun facts section end
+========================================*/
