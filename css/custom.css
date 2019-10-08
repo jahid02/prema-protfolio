@@ -453,4 +453,59 @@ background-color: #eb3b5a;
    checkout my works section end
 ========================================*/
 
+/*=======================================
+   what my client say section start
+========================================*/
+.what-client-say{
+
+    background-image: url(../img/testimonials.jpg);
+    height: auto;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.what-client-say .overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 60px 0;
+}
+.what-client-say .overlay h5{
+    color: #ffffff;
+    padding: 25px 0 0;
+}
+.what-client-say .overlay p{
+    font-size: 10.5px;
+    padding: 17px 0;
+    letter-spacing: 1px;
+    color: #fff;
+
+}
+.what-client-say .wmcs-underline{
+    margin: 0 auto;
+    height: 3px;
+    width: 60px;
+    background-color: #eb3b5a;
+}
+.what-client-say .what-client-say-content{}
+.what-client-say .what-client-say-content img{
+    border-radius: 100%;
+}
+.what-client-say .what-client-say-content p{
+    letter-spacing: 1.5px;
+    line-height: 19px;
+    font-family: inherit;
+}
+.what-client-say .what-client-say-content h5{
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-family: inherit;
+}
+
+/*=======================================
+   what my client say section end
+========================================*/
+
 
