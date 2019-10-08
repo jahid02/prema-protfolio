@@ -508,4 +508,48 @@ background-color: #eb3b5a;
    what my client say section end
 ========================================*/
 
+/*=======================================
+   client section start
+========================================*/
+.client h5{
+    padding: 30px 0 0;
+    letter-spacing: 1px;
+}
+.client p{
+    font-size: 13px;
+    padding: 17px 0;
+    letter-spacing: 1px;
+    width: 75%;
+    margin: 0 auto;
+
+}
+.client .client-underline{
+    margin: 0 auto;
+    height: 3px;
+    width: 50px;
+    background-color: #eb3b5a;
+}
+
+.client .client-content{}
+.client .client-content .client-content-img{
+    border: 1px solid #ddd;
+    padding: 7px 5px;
+    height: 75px;
+    width: 23%;
+    float: left;
+    margin: 0 8px;
+    transition: all 1s ease;
+}
+.client .client-content .client-content-img img{
+    float: left;
+    opacity: 0.4;
+}
+.client .client-content .client-content-img img:hover{
+    opacity: 1;
+}
+
+/*=======================================
+   client section end
+========================================*/
+
 
