@@ -552,4 +552,20 @@ background-color: #eb3b5a;
    client section end
 ========================================*/
 
+/*=======================================
+   footer section start
+========================================*/
+.footer{
+    background-color: #312e2e;
+    color: #cacaca;
+}
+.footer p{
+     font-size: 13px;
+     letter-spacing: 1px;
+     padding: 25px 0;
+ }
+/*=======================================
+   footer section end
+========================================*/
+
 
