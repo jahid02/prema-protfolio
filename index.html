@@ -63,6 +63,86 @@
     </div>
     <!--<div style="height: 700px;"></div>-->
 
+    <!--=======================================
+      my profile section start
+    =========================================-->
+
+    <section class="my-profile">
+        <div class="container">
+            <div class="row img text-center">
+                <img src="img/profile.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="row my-profile-top">
+                <h4>JOHN DOE</h4>
+                <div class="mpt-underline"></div>
+                <P>Creative UI / UX Designer And Developer.</P>
+            </div>
+            <div class="row">
+                <div class="col-md-6 my-profile-left mb-md-4">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">ABOUT ME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">WHY ME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">MY VISION</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <h5>ABOUT ME</h5>
+                            <div class="mp-underline"></div>
+                            <span>Hello,</span>
+                            <p>Iam JOHN DOE, Front-End Developer with 3 years of experience rapidiously productize wireless results.
+                                <br><br>whereas multidisciplinary intellectual capital. Distinctively synergize market-driven innovation and prospective channels. Dramatically drive an expanded array of expertise with distinctive technology. Completely cultivate standardized manufactured.</p>
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <h5>WHY TO CHOOSE ME</h5>
+                            <div class="mp-underline"></div>
+                            <span>Hello,</span>
+                            <p>Iam JOHN DOE, Front-End Developer with 3 years of experience rapidiously productize wireless results.<br>
+                                <br> whereas multidisciplinary intellectual capital. Distinctively synergize market-driven innovation and prospective channels. Dramatically drive an expanded array of expertise with distinctive technology. Completely cultivate standardized manufactured.
+                            </p>
+                        </div>
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                            <h5>HERE IS MY VISION</h5>
+                            <div class="mp-underline"></div>
+                            <span>Hello,</span>
+                            <p>Iam JOHN DOE, Front-End Developer with 3 years of experience rapidiously productize wireless results.
+                                <br> <br>
+                                whereas multidisciplinary intellectual capital. Distinctively synergize market-driven innovation and prospective channels. Dramatically drive an expanded array of expertise with distinctive technology. Completely cultivate standardized manufactured.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 my-profile-right mb-md-4">
+                    <h5>PERSONAL INFO</h5>
+                    <div class="mp-underline-two"></div>
+                    <p>
+                        <span>My Name:</span> JOHN DOE<br><br>
+
+                        <span>Nationality:</span> Egyptian<br><br>
+
+                        <span>Date Of Birth:</span> 06-09-1991<br><br>
+
+                        <span>E-mail:</span> admin@prema.com<br><br>
+
+                        <span>Website:</span>  www.Johndoe.com<br><br>
+
+                        <span>My Phone:</span> +20 11 202 111 12<br><br>
+
+                        <span> My Hobbies:</span> Football, Movies, Video Games<br><br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--=======================================
+       my profile section end
+    =========================================-->
+
 
     <!--=======================================
           about section start
@@ -768,6 +848,12 @@
             }
 
         });
+    </script>
+    <script>
+        $('#myTab a').on('click', function (e) {
+            e.preventDefault()
+            $(this).tab('show')
+        })
     </script>
 </body>
 

@@ -16,6 +16,100 @@ body{
 }
 
 
+/*======================================
+      my profile section start
+========================================*/
+.my-profile{}
+.my-profile img{
+    margin: 0 auto;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    border: 4px solid #ddd;
+    box-shadow: 1px 0px 15px 3px #6b6b6b;
+}
+.my-profile .my-profile-top{}
+.my-profile .my-profile-top h4{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0 0px;
+}
+.my-profile .my-profile-top p{
+
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+}
+.my-profile .my-profile-top .mpt-underline{
+    height: 2.2px;
+    width: 60px;
+    background-color: #eb3b5a;
+    margin: 0 auto;
+}
+.my-profile .tab-content{
+    border: 1px solid #eb3b5a;
+    padding: 15px;
+    border-top: 0;
+}
+.my-profile .tab-content p{
+    font-size: 13px;
+    padding: 8px 0;
+    letter-spacing: 1px;
+}
+.my-profile .tab-content span{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-family: monospace;
+    color: #737373;
+}
+.my-profile .tab-content h5{}
+.my-profile .tab-content .mp-underline{
+    height: 2.2px;
+    width: 60px;
+    background-color: #eb3b5a;
+}
+.my-profile .my-profile-left{}
+.my-profile .my-profile-left ul{
+    border-bottom: 1px solid #eb3b5a;
+}
+.my-profile .my-profile-left ul li{}
+.my-profile .my-profile-left ul li .nav-link.active{
+    color: #868686;
+    border-color: #eb3b5a #eb3b5a #fff;
+}
+.my-profile .my-profile-left ul li a{
+    background-color: #eb3b5a;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 12px;
+    margin-right: 2px;
+}
+.my-profile .my-profile-left ul li a:hover{}
+
+.my-profile .my-profile-right{
+    text-align: center;
+}
+.my-profile .my-profile-right .mp-underline-two{
+    height: 2.2px;
+    margin: 0 auto;
+    width: 60px;
+    background-color: #eb3b5a;
+}
+.my-profile .my-profile-right p{
+    padding: 20px 0;
+    text-align: center;
+    color: #848484;
+    font-size: 15px;
+}
+.my-profile .my-profile-right p span{
+    font-size: 15px;
+    color: black;
+}
+
+
+/*======================================
+      my profile section end
+========================================*/
 
 
 /*======================================
