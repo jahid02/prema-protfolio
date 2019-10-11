@@ -17,6 +17,29 @@ body{
 
 
 /*======================================
+      header section start
+========================================*/
+
+.header{}
+.header .header-link{}
+.header .header-link a{
+    color: #fff;
+   font-size: 25px;
+}
+.header .header-link a:hover{}
+.header .header-link b{
+    color: #fff;
+    background: #eb3b5a;
+    padding: 10px;
+}
+
+
+/*======================================
+      header section end
+========================================*/
+
+
+/*======================================
       my profile section start
 ========================================*/
 .my-profile{}
