@@ -38,6 +38,78 @@ body{
       header section end
 ========================================*/
 
+/*======================================
+      slider section start
+========================================*/
+
+.slider-section{
+    background-image: url(../img/header.jpg);
+    height: auto;
+    width: auto;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.slider-section .overlap .slider-section-content .entity{
+    color: #eb3b5a;
+    font-size: 14px;
+    padding: 0 12px;
+}
+.slider-section .overlap .slider-section-content{
+    text-align: center;
+}
+.slider-section .overlap .slider-section-content span{
+    color: #fff;
+}
+.slider-section .overlap{
+    height: auto;
+    width: auto;
+    background-color: rgba(0,0,0,0.6);
+    padding: 15% 0;
+}
+.slider-section .overlap .slider-section-buttion{}
+.slider-section .overlap .slider-section-buttion .btn-one{
+    background-color: #eb3b5a;
+    border-radius: 0;
+    margin-right: 20px;
+}
+.slider-section .overlap .slider-section-buttion .btn-two:hover{
+    background-color: #eb3b5a;
+    color: #ffffff;
+    border-radius: 0;
+}
+.slider-section .overlap h1{
+    color: #fff;
+    font-size: 65px;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.slider-section .overlap .slider-section-buttion .btn-one:hover{
+    background-color: #ffffff;
+    color: #eb3b5a;
+    border-radius: 0;
+    border: 1px solid #ffffff;
+}
+.slider-section .overlap .slider-section-buttion a{
+    text-decoration: none;
+    border: 1px solid #eb3b5a;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+.slider-section .overlap .slider-section-buttion:first-child{}
+.slider-section .overlap .slider-section-buttion:first-child:hover{}
+.slider-section .overlap .slider-section-buttion:last-child{}
+.slider-section .overlap .slider-section-buttion:last-child:hover{}
+
+
+/*======================================
+      slider section end
+========================================*/
+
 
 /*======================================
       my profile section start
