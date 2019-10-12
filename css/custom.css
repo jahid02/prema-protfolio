@@ -31,6 +31,7 @@ body{
     color: #fff;
     background: #eb3b5a;
     padding: 10px;
+    margin-left: 8px;
 }
 
 
@@ -67,7 +68,7 @@ body{
     height: auto;
     width: auto;
     background-color: rgba(0,0,0,0.6);
-    padding: 15% 0;
+    padding: 17% 0;
 }
 .slider-section .overlap .slider-section-buttion{}
 .slider-section .overlap .slider-section-buttion .btn-one{
@@ -834,6 +835,7 @@ background-color: #eb3b5a;
     background: #08080845;
     color: #fff;
     border: transparent;
+    width: 93%;
 }
 .keep-in-touch .social-media{}
 .keep-in-touch .social-media h5{}
@@ -862,6 +864,9 @@ background-color: #eb3b5a;
      keep in touch section end
 ========================================*/
 
+.map{
+    height: 430px;
+}
 
 
 /*=======================================
