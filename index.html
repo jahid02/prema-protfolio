@@ -27,6 +27,9 @@
             text-decoration: none;
             padding: 10px 20px;
         }
+        .toTop:hover{
+            color: #ffffff;
+        }
     </style>
     <script src="https://kit.fontawesome.com/95141001f6.js" crossorigin="anonymous"></script>
     <!--<script src="js/95141001f6.js" crossorigin="anonymous"></script>
@@ -35,46 +38,10 @@
 
 <body>
 
-    <ul class="menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#service">Service</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#blog">Blog</a></li>
-    </ul>
-
-    <div id="home">
-        <h1>Home</h1>
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-    </div>
-    <div id="about">
-        <h1>About</h1>
-        <p></p>
-    </div>
-    <div id="contact">
-        <h1>Contac</h1>
-        <p></p>
-
-    </div>
-    <div id="service">
-        <h1>Service</h1>
-        <p></p>
-    </div>
-    <div id="work">
-        <h1>Work</h1>
-        <p></p>
-    </div>
-    <div id="blog">
-        <h1>Blog</h1>
-        <p></p>
-    </div>
-    <!--<div style="height: 700px;"></div>-->
-
     <!--=======================================
       header section start
     =========================================-->
-    <section class="header">
+    <section class="header fixed-top">
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
                 <div class="container">
                 <div class="header-link">
@@ -85,32 +52,31 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto py-2">
+                    <ul class="navbar-nav ml-auto py-2 menu">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Service</a>
+                            <a class="nav-link" href="#services">Service</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Experience</a>
+                            <a class="nav-link" href="#experience">Experience</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Skill</a>
+                            <a class="nav-link" href="#skill">Skill</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Protfolio</a>
+                            <a class="nav-link" href="#profolio">Protfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Testimonials</a>
+                            <a class="nav-link" href="#testimonial">Testimonials</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#testimonial2">Contact</a>
                         </li>
-
                     </ul>
                 </div>
              </div>
@@ -126,7 +92,7 @@
         slider section start
     =========================================-->
 
-    <section class="slider-section">
+    <section id="home" class="slider-section">
         <div class="overlap">
             <div class="container pt-md-5">
                 <h1>I'M JOHN DOE</h1>
@@ -158,7 +124,7 @@
       my profile section start
     =========================================-->
 
-    <section class="my-profile">
+    <section id="about" class="my-profile">
         <div class="container">
             <div class="row img text-center pt-5">
                 <img src="img/profile.jpg" class="img-fluid" alt="">
@@ -391,7 +357,7 @@
     <!--=======================================
           what can i do section start
     =========================================-->
-    <section class="what-can-i-do py-md-4">
+    <section id="services" class="what-can-i-do py-md-4">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center what-can-i-do-head">
@@ -528,7 +494,7 @@
         my powerful skills starts
     =========================================-->
 
-    <section class="my-powerful-skills">
+    <section id="skill" class="my-powerful-skills">
         <div class="overlay">
             <div class="container">
                 <div class="row">
@@ -594,7 +560,7 @@
         checkout my works section start
     =========================================-->
 
-    <section class="chk-my-work">
+    <section id="profolio" class="chk-my-work">
         <div class="container py-5">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -700,7 +666,7 @@
         client what say section start
     =========================================-->
 
-    <section class="what-client-say">
+    <section id="testimonial" class="what-client-say">
         <div class="overlay">
             <div class="container">
                 <div class="row">
@@ -783,7 +749,7 @@
     <!--=======================================
             keep in touch section start
     =========================================-->
-    <section class="keep-in-touch">
+    <section id="testimonial2" class="keep-in-touch">
         <div class="overlay">
             <div class="container">
                 <div class="row">
